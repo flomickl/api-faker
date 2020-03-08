@@ -12,14 +12,14 @@ This is an API Faker with prepared data accessible via URL commands
 The API is accessible under localhost and port 5000
 
 ## Data Description
-### Geolife
-See PDF
+1. Geolife
+    * See PDF
 
-### Tankstellen
-Coming Soon
+2.  Tankstellen
+    * Coming Soon
 
-# Animal Movement
-* Lat Lng Position from two animals (cat and dog)
+3. Animal Movement
+    * Lat Lng Position from two animals (cat and dog) in one event walking around
 
 
 ## Data Access
