@@ -1,0 +1,2 @@
+class GeolifePosition < ApplicationRecord
+end
