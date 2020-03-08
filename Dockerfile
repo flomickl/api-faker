@@ -9,14 +9,14 @@ WORKDIR /opt/api-faker
 # ENV RAILS_ENV production
 
 # Install gems, nodejs and precompile the assets
-RUN bundle install 
+RUN gem install bundler:2.1.4
+RUN bundle install
 
 RUN rails db:create
 RUN rails db:migrate
 RUN rails db:seed
 
 CMD ["rails", "server", "-b", "0.0.0.0"]
-
 
 # Start the application server
 # ENTRYPOINT ['rails server -b 0.0.0.0']
