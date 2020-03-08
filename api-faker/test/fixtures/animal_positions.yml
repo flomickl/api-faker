@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  katze_lat: 1.5
+  katze_long: 1.5
+  hund_lat: 1.5
+  hund_long: 1.5
+  runner: 
+
+two:
+  katze_lat: 1.5
+  katze_long: 1.5
+  hund_lat: 1.5
+  hund_long: 1.5
+  runner: 

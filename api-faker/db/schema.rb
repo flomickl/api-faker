@@ -10,7 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_03_08_072232) do
+ActiveRecord::Schema.define(version: 2020_03_08_140655) do
+
+  create_table "animal_positions", force: :cascade do |t|
+    t.float "katze_lat"
+    t.float "katze_long"
+    t.float "hund_lat"
+    t.float "hund_long"
+    t.bigint "runner"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
   create_table "geolife_positions", force: :cascade do |t|
     t.float "latitude"
