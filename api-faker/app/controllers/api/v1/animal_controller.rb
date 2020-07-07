@@ -12,7 +12,7 @@ class Api::V1::AnimalController < ApplicationController
     @current_second = Time.now.min*60 + Time.now.sec
     #@current_second = 2
     @animal = AnimalPosition.find_by(id: @current_second)
-    render json: {status: 'SUCCESS', message: 'Loaded Latest ',data:@animal}, status: :ok
+    render json: @animal
   end
 
 end

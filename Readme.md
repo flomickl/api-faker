@@ -24,14 +24,19 @@ The API is accessible under localhost and port 5000
 
 ## Data Access
 ### GeoLife
-* http://localhost:5000/api/v1/geolife/all --> all geolife positions from a single trajectory
+* http://172.17.0.1:5000/api/v1/geolife/all --> all geolife positions from a single trajectory
+
 
 ### Animals
-* http://localhost:3000/api/v1/animal/all ->  all events
-* http://localhost:3000/api/v1/animal/latest -> single event refreshing every second the position
+* http://172.17.0.1:5000/api/v1/animal/all ->  all events
+* http://172.17.0.1:5000/api/v1/animal/latest -> single event refreshing every second the position
 
 
 
 ## Sources
 * [GeoLife](https://www.microsoft.com/en-us/download/details.aspx?id=52367&from=https%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fdownloads%2Fb16d359d-d164-469e-9fd4-daa38f2b2e13%2F)
 * [PetrolStations](https://creativecommons.tankerkoenig.de/)
+
+
+http://www.w3.org/2003/01/geo/wgs84_pos#lat
+http://www.w3.org/2003/01/geo/wgs84_pos#long
